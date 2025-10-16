@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ejercicios prácticos para afianzar conceptos básicos de JavaScript." />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Ejercicios de JavaScript</title>
+
+  <!-- JS (respetando tus rutas y funciones existentes) -->
+  <script src="./js/eje10.js" defer></script>
+  <script src="./js/eje11.js" defer></script>
+  <script src="./js/eje11reset.js" defer></script>
+</head>
+
+<body>
+  <!-- Enlace de salto para accesibilidad -->
+  <a href="#contenido" class="sr-only">Saltar al contenido</a>
+
+  <!-- ===== Header ===== -->
+  <header class="titulo" role="banner">
+    <h1>JavaScript</h1>
+    <p>Pequeña guía y práctica interactiva</p>
+  </header>
+
+  <!-- ===== Main ===== -->
+  <main id="contenido" role="main" aria-labelledby="bases-js">
+
+    <!-- === Section: Bases de JavaScript === -->
+    <section class="bases" aria-describedby="intro-js">
+      <h2 id="bases-js">Bases de JavaScript</h2>
+
+      <article class="explicacion" aria-labelledby="que-es">
+        <h3 id="que-es">¿Qué es?</h3>
+        <p id="intro-js">
+          JavaScript es un lenguaje de programación interpretado y de alto nivel (1995, Brendan Eich).
+          Nació para dar interactividad a la web, que antes era mayormente estática con HTML y CSS.
+        </p>
+      </article>
+
+      <article class="explicacion" aria-labelledby="como-funciona">
+        <h3 id="como-funciona">¿Cómo funciona?</h3>
+        <p>
+          Se ejecuta en motores del navegador (V8 en Chrome, SpiderMonkey en Firefox). El código se
+          interpreta en tiempo real, sin compilación previa, lo que permite respuestas inmediatas.
+        </p>
+      </article>
+
+      <article class="explicacion" aria-labelledby="para-que-sirve">
+        <h3 id="para-que-sirve">¿Para qué sirve?</h3>
+        <p>
+          Se usa tanto en el frontend como en el backend. Permite responder a acciones del usuario,
+          actualizar partes de la página sin recargar y crear experiencias dinámicas (menús, efectos, etc.).
+        </p>
+      </article>
+    </section>
+
+    <!-- === Section: Actividades === -->
+    <section class="trabajos" aria-labelledby="actividades">
+      <h2 id="actividades">Actividad</h2>
+
+      <!-- Ejercicios -->
+      <article class="ejercicio" aria-labelledby="ej1">
+        <h3 id="ej1">Ejercicio 1: Suma</h3>
+        <p>Suma dos valores y muestra el resultado con JavaScript.</p>
+        <figure>
+          <img src="./img/Ejercicio1.png" alt="Interfaz para sumar dos números" loading="lazy" />
+          <figcaption>Operación aritmética básica</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej2">
+        <h3 id="ej2">Ejercicio 2: Contador de Letras</h3>
+        <p>Cuenta la cantidad de caracteres de una palabra ingresada.</p>
+        <figure>
+          <img src="./img/Ejercicio2.png" alt="Campo de texto para contar caracteres" loading="lazy" />
+          <figcaption>Longitud de cadenas</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej3">
+        <h3 id="ej3">Ejercicio 3: Identificador de Edad</h3>
+        <p>Clasifica la edad según el valor proporcionado por el usuario.</p>
+        <figure>
+          <img src="./img/Ejercicio3.png" alt="Formulario para ingresar edad" loading="lazy" />
+          <figcaption>Categorización por rangos</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej4">
+        <h3 id="ej4">Ejercicio 4: Identificador de Enteros</h3>
+        <p>Verifica si el número ingresado corresponde a un entero.</p>
+        <figure>
+          <img src="./img/Ejercicio4.png" alt="Validación de número entero" loading="lazy" />
+          <figcaption>Validación numérica</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej5">
+        <h3 id="ej5">Ejercicio 5: Calculadora Básica</h3>
+        <p>Realiza operaciones simples (suma, resta, multiplicación, división).</p>
+        <figure>
+          <img src="./img/Ejercicio5.png" alt="Calculadora sencilla con cuatro operaciones" loading="lazy" />
+          <figcaption>Operaciones fundamentales</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej6">
+        <h3 id="ej6">Ejercicio 6: Identificador de Pares</h3>
+        <p>Determina si un número es par o impar.</p>
+        <figure>
+          <img src="./img/Ejercicio6.png" alt="Comprobación de paridad de un número" loading="lazy" />
+          <figcaption>Paridad de números</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej7">
+        <h3 id="ej7">Ejercicio 7: Identificador de Género</h3>
+        <p>Ejemplo didáctico para leer una entrada de texto y evaluar una condición.</p>
+        <figure>
+          <img src="./img/Ejercicio7.png" alt="Entrada de texto para identificar género" loading="lazy" />
+          <figcaption>Condicionales con texto</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej8">
+        <h3 id="ej8">Ejercicio 8: Tablas de Multiplicar</h3>
+        <p>Genera dinámicamente una tabla de multiplicar.</p>
+        <figure>
+          <img src="./img/Ejercicio8.png" alt="Tabla de multiplicar generada en pantalla" loading="lazy" />
+          <figcaption>Bucles y repetición</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej9">
+        <h3 id="ej9">Ejercicio 9: Lista a Mayúsculas</h3>
+        <p>Convierte una lista de palabras a mayúsculas.</p>
+        <figure>
+          <img src="./img/Ejercicio9.png" alt="Transformación de lista a mayúsculas" loading="lazy" />
+          <figcaption>Mapeo de arreglos</figcaption>
+        </figure>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej10">
+        <h3 id="ej10">Ejercicio 10: Botón Bienvenida</h3>
+        <p>Muestra un mensaje de bienvenida al pulsar el botón.</p>
+        <figure>
+          <img src="./img/Ejercicio10.png" alt="Botón que dispara un mensaje de bienvenida" loading="lazy" />
+          <figcaption>Eventos de clic</figcaption>
+        </figure>
+        <div>
+          <!-- Conservamos el id exacto para no romper tu eje10.js -->
+          <button id="bienvenudo" type="button" aria-label="Mostrar mensaje de bienvenida">Ejemplo</button>
+        </div>
+      </article>
+
+      <article class="ejercicio" aria-labelledby="ej11">
+        <h3 id="ej11">Ejercicio 11: Registro Bienvenida</h3>
+        <p>Captura nombre, edad y trabajo, y muestra un saludo personalizado.</p>
+        <figure>
+          <img src="./img/Ejercicio11.png" alt="Formulario para registrar nombre, edad y trabajo" loading="lazy" />
+          <figcaption>Manejo de formularios</figcaption>
+        </figure>
+
+        <form id="Ejer11" novalidate>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Ej: Alex" />
+
+          <label for="edad">Edad</label>
+          <input type="number" id="edad" name="edad" inputmode="numeric" min="0" placeholder="Ej: 20" />
+
+          <label for="chamba">Trabajo</label>
+          <input type="text" id="chamba" name="chamba" autocomplete="organization-title" placeholder="Ej: Desarrollador" />
+
+          <div>
+            <!-- Respetamos los nombres de funciones que llamas desde JS -->
+            <button type="button" onclick="mostrarAlerta()">Enviar</button>
+            <button class="limpiar" type="button" onclick="limpiarform()">Eliminar</button>
+          </div>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>WILSON ALEJANDRO MEJIA CALDERON</p>
+  </footer>
+</body>
+</html>
